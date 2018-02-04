@@ -1,0 +1,53 @@
+body{
+	background-color: rgb(190, 190, 255)
+}
+
+.Title{
+	font-style: oblique; font-size: 500%; color: rgb(76, 0, 153); 
+}
+
+#Liberte{
+	color: rgb(0, 0, 153); 
+}
+
+#Egalite{
+	color: white; 
+}
+
+#Fraternite{
+	color: rgb(255, 51, 51); float: right 
+}
+
+.nav_ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #444;
+}
+
+.nav_li {
+    float: left;
+}
+
+#join {
+	float: right;
+}
+
+li a {
+    display: block;
+    color: rgb(102, 178, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #222;
+    color: rgb(255, 102, 102);
+}
+
+.contact{
+	font-style: oblique; color: rgb(76, 0, 153);	
+}
+

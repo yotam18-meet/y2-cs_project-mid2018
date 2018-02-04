@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Viva La France </title>
+		<link rel="stylesheet" type="text/css" href="./style/style.css">
+		<script type="text/javascript"> 
+			function execute(dead) {
+				var mode;
+					if (dead==0) {
+						mode = "./style/jpg/g_after.jpg"
+					} else {
+						mode = "./style/jpg/g_before.jpg"
+					}
+					document.getElementById("guillotine").src = mode;
+			}
+		</script>
+	</head>
+	<body>
+		<ul class="nav_ul">
+			<li class="nav_li"><a class="active" href="Home.html">Home </a></li>
+			<li class="nav_li"><a class="active" href="Goals.html">Goals/Achievements </a></li>
+			<li class="nav_li"><a class="active" href="Guillotine.html">Guillotine >:) </a></li>
+			<li class="nav_li" id="join"><a class="active" href="Join.html">Join us! </a></li>
+		</ul>
+		<button type="button" onclick="execute(0)"> Execute </button>
+		<button type="button" onclick="execute(1)"> Prepare </button>
+		<br>
+		<img id="guillotine" src="./style/jpg/g_before.jpg" width="282" height="385">
+	</body>
+</html>
